@@ -1,19 +1,19 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |gem|
-  gem.name = %q{moip}
-  gem.version = "1.0.2"
+  gem.name = %q{marnen-moip}
+  gem.version = "1.0.2-39f9dab38fc33fe9bf614deb8e90ca166ab2d6bf"
 
-  gem.authors = ["Guilherme Nascimento"]
+  gem.authors = ["Guilherme Nascimento", 'Marnen Laibow-Koser']
   gem.date = %q{2010-11-10}
   gem.description = %q{Gem para utilização da API MoIP}
-  gem.email = %q{guilherme.ruby@gmail.com}
+  gem.email = ['guilherme.ruby@gmail.com', 'marnen@marnen.org']
   gem.summary = %q{Gem para utilização da API MoIP}
 
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- spec/*.rb`.split("\n")
 
-  gem.homepage = %q{http://github.com/moiplabs/moip-ruby}
+  gem.homepage = %q{http://github.com/marnen/moip-ruby}
   gem.require_paths = ["lib"]
 
   gem.rdoc_options = ["--charset=UTF-8"]
